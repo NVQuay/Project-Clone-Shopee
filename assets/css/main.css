@@ -796,6 +796,10 @@
     background-color: #f5f5f5;
 }
 
+.app__content {
+    padding-top: 36px;
+}
+
 .category {
     background-color: var(--white-color);
 }
@@ -804,6 +808,7 @@
     color: var(--text-color);
     font-size: 1.7rem;
     padding: 10px 16px;
+    margin-top: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -818,8 +823,6 @@
     list-style: none;
     margin-left: 9px;
 }
-
-.category-item {}
 
 .category-item--active .category-item__link {
     color: var(--primary-color);
@@ -850,3 +853,6 @@
     right: -4px;
     color: var(--primary-color);
 }
+
+
+/* Home sort + filter */
